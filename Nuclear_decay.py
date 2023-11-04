@@ -395,8 +395,8 @@ def main():
     None.
 
     """
-    FILE1 = "/Users/noahallouane/Downloads/Nuclear_data_1.csv"
-    FILE2 = "/Users/noahallouane/Downloads/Nuclear_data_2.csv"
+    FILE1 = "Nuclear_data_1.csv"
+    FILE2 = "Nuclear_data_2.csv"
     dataset = reading_in_and_cleaning(FILE1, FILE2)
     dataset_in_seconds = convert_to_seconds(dataset)
     dataset_no_outliers = identify_removing_outliers(dataset_in_seconds)
